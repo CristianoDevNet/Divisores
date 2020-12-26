@@ -6,11 +6,11 @@ namespace Divisores.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class DivisorController : ControllerBase
+    public class DivisoresController : ControllerBase
     {
         private readonly IOperacaoService _operacao;
 
-        public DivisorController(IOperacaoService operacao)
+        public DivisoresController(IOperacaoService operacao)
         {
             _operacao = operacao;
         }
